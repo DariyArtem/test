@@ -1,0 +1,161 @@
+.sidebar
+
+    &-search
+        text-align: center
+        max-width: 1399px
+        padding-top: 46px
+
+    &-icons
+        &-mobile
+            display: flex
+            max-width: 189px
+            width: 100%
+            margin: 0 auto
+            justify-content: space-between
+            padding-top: 190px
+            padding-bottom: 90px
+
+    &-closeSidebar
+        cursor: pointer
+        color: #FFF
+    &-top
+        display: flex
+        justify-content: space-between
+        width: 95%
+        margin: 0 auto
+
+    &-references
+        text-align: center
+        font-size: 24px
+        line-height: 36px
+        padding-top: 100px
+
+        li
+            padding-bottom: 30px
+
+            a
+                &:hover
+                    color: #FFA902
+
+    &-card
+        cursor: pointer
+        position: relative
+        height: 60px
+        width: 86px
+
+        img
+            width: 100%
+            height: 100%
+            border-radius: 5px
+            object-fit: cover
+
+    &-icons
+        padding-top: 12px
+        display: flex
+        justify-content: space-between
+        max-width: 225px
+
+    &-title
+        color: #141414
+        font-family: Poppins, sans-serif
+        font-size: 18px
+        font-weight: 700
+
+    &-post
+        display: flex
+
+    &-title
+        font-family: Poppins, sans-serif
+        font-size: 16px
+        font-weight: 600
+        color: #141414
+
+    &-post
+        padding-top: 10px
+
+    &-category
+        display: flex
+
+    &-hr
+        margin-top: 5px
+        border: 1px solid rgba(134, 131, 131, 0.2)
+
+        &-aboutPage
+            max-width: 292px
+            border: 1px solid #868383
+
+    &-photo
+        width: 202px
+        height: 202px
+
+        img
+            position: relative
+            width: 100%
+            height: 100%
+            border-radius: 100px
+
+    &-profile
+        background: #FFFFFF
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1)
+        border-radius: 10px
+        padding-bottom: 25px
+
+    &-name
+        font-family: Poppins, sans-serif
+        font-style: normal
+        font-weight: 600
+        font-size: 36px
+        color: #141414
+
+    &-bio
+        max-width: 292px
+        padding-bottom: 12px
+
+    &-contacts
+        margin-top: 25px
+
+    &-message
+        font-family: Poppins, sans-serif
+        font-style: normal
+        font-weight: bold
+        font-size: 18px
+        color: #141414
+        padding-bottom: 17px
+
+    &-address, &-phone, &-email
+        max-width: 260px
+        font-family: Roboto, sans-serif
+        font-style: normal
+        font-weight: normal
+        font-size: 15px
+        color: #696969
+
+@media only screen and (max-width: 1199px)
+    .sidebar
+        &-post
+            display: block
+
+@media only screen and (max-width: 991px)
+    .sidebar
+        &-social
+            align-items: flex-end
+            justify-content: space-between
+
+@media only screen and (max-width: 767px)
+    .sidebar
+        &-post
+            display: flex
+
+        &-title
+            text-align: center
+
+        &-icons
+            margin: 0 auto
+            display: flex
+            flex-wrap: wrap
+
+
+@media only screen and (max-width: 575px)
+    .sidebar
+        &-social
+            display: block

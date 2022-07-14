@@ -1,0 +1,75 @@
+.post
+    &-img
+        width: 100%
+        height: 438px
+
+        img
+            height: 100%
+            width: 100%
+            object-fit: cover
+            border-radius: 20px
+
+    &-text
+        padding-left: 13px
+
+    &-title
+        font-family: Poppins, sans-serif
+        font-size: 15px
+        font-weight: 600
+        color: #141414
+        max-width: 204px
+
+    &-post
+        font-family: Poppins, sans-serif
+        font-size: 6px
+        font-weight: 500
+        color: #FFA902
+        text-decoration: underline
+
+    &-author
+        display: flex
+
+    &-by
+        font-family: Poppins, sans-serif
+        font-size: 6px
+        font-weight: 500
+        margin: 0 3px
+        color: #696969
+
+    &-sign
+        font-family: Poppins, sans-serif
+        font-size: 6px
+        font-weight: 400
+        color: #141414
+
+    &-data
+        display: flex
+        max-width: 94px
+        align-items: center
+        justify-content: space-between
+
+    &-date
+        font-family: Poppins, sans-serif
+        font-size: 6px
+        font-weight: 400
+        color: #868383
+
+    &-hr
+        width: 11px
+        border: 0.5px solid #868383
+
+    &-comment
+        font-family: Poppins, sans-serif
+        font-size: 6px
+        font-weight: 400
+        color: #FFA902
+
+@media only screen and (max-width: 1199px)
+    .post
+        &-text
+            padding-left: 0
+
+@media only screen and (max-width: 767px)
+    .post
+        &-text
+            margin-left: 13px

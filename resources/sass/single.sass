@@ -1,0 +1,268 @@
+.single
+
+    &-top
+        margin-top: 50px
+
+    &-title
+        line-height: 122.9%
+        margin: 50px 0 50px 0
+        font-family: Poppins, sans-serif
+        font-style: normal
+        font-weight: 500
+        font-size: 36px
+        color: #141414
+
+        &-fromContent
+            line-height: 122.9%
+            margin: 53px 0 37px 0
+            font-family: Poppins, sans-serif
+            font-style: normal
+            font-weight: 500
+            font-size: 36px
+            color: #141414
+
+    &-info
+        margin-bottom: 55px
+        align-items: center
+        width: 100%
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+
+    &-data
+        flex-wrap: wrap
+        display: flex
+        justify-content: space-between
+
+    &-text
+        line-height: 196.3%
+        font-family: Poppins, sans-serif
+        font-style: normal
+        font-weight: normal
+        font-size: 15px
+        color: #696969
+    &-price
+        line-height: 196.3%
+        font-family: Poppins, sans-serif
+        font-style: normal
+        font-weight: 600
+        font-size: 32px
+        color: #141414
+
+    &-category
+        display: flex
+        align-items: baseline
+
+    &-by
+        margin-left: 15px
+
+    &-quantity
+        margin-left: 15px
+
+    &-notification
+        display: flex
+        align-items: center
+        margin: 30px 0 30px 0
+        background: #FFF1D4
+        border-radius: 10px
+
+    &-card
+        width: 100%
+        height: 288px
+
+        img
+            border-radius: 20px
+            height: 100%
+            width: 100%
+            object-fit: cover
+
+    &-submit
+        max-width: 272px
+
+    &-padding
+        padding-bottom: 50px
+
+    &-button
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 770px
+        height: 434px
+        position: absolute
+        z-index: 2
+
+    &-videofile
+        max-width: 770px
+        z-index: -1
+
+        video
+            border-radius: 20px
+            width: 100%
+
+    &-close
+        left: 58%
+        z-index: 3
+
+    &-author
+        margin-bottom: 25px
+        padding: 27px 23px
+        background: #FFF1D4
+        border-radius: 10px
+
+    &-photo
+        width: 152px
+        height: 152px
+
+        img
+            position: relative
+            width: 100%
+            height: 100%
+            border-radius: 100px
+
+    &-reference
+        color: #141414
+        &-author
+            white-space: pre-line
+            color: #141414
+        &:hover
+            color: #FFA902
+
+    &-social
+        display: flex
+        justify-content: space-between
+        width: 197px
+
+    &-icons
+        padding-top: 12px
+        display: flex
+        justify-content: space-between
+        max-width: 153px
+
+        a
+            background: #FFF1D4
+
+    &-name
+        font-family: Poppins, sans-serif
+        font-style: normal
+        font-weight: bold
+        font-size: 24px
+        line-height: 36px
+        color: #141414
+
+    &-role
+        padding-bottom: 11px
+        font-family: Poppins, sans-serif
+        font-style: normal
+        font-weight: 600
+        font-size: 15px
+        color: #FFA902
+
+    &-about
+        line-height: 196.3%
+        font-family: Poppins, sans-serif
+        font-style: normal
+        font-weight: 400
+        font-size: 15px
+        color: #141414
+
+@media only screen and (max-width: 1599px)
+    .single
+        &-button
+            width: 626px
+            height: 352px
+
+@media only screen and (max-width: 1399px)
+    .single
+        &-text
+            font-size: 14px
+
+        &-button
+            width: 545px
+            height: 306px
+
+        &-close
+            left: 57%
+
+@media only screen and (max-width: 1199px)
+    .single
+        &-text
+            font-size: 12px
+        &-by, &-quantity, &-category
+            margin-left: unset
+        &-data
+            flex-direction: column
+            text-align: center
+        &-button
+            width: 464px
+            height: 261px
+        &-info
+            flex-direction: column
+        &-close
+            left: 57.5%
+
+@media only screen and (max-width: 991px)
+    .single
+        &-text
+            font-size: 11px
+
+        &-button
+            width: 379px
+            height: 213px
+
+        &-close
+            left: 56%
+
+@media only screen and (max-width: 767px)
+    .single
+        &-text
+            font-size: 12px
+
+        &-close
+            left: 74%
+
+        &-data
+            width: 100%
+
+        &-category
+            justify-content: center
+
+        &-button
+            width: 408px
+            height: 229px
+
+        &-title
+            text-align: center
+
+@media only screen and (max-width: 575px)
+    .single
+        &-text
+            font-size: 15px
+
+        &-button
+            width: 291px
+            height: 164px
+
+        &-close
+            left: 72%
+
+@media only screen and (max-width: 480px)
+    .single
+        &-close
+            left: 76%
+
+@media only screen and (max-width: 340px)
+    .single
+        &-button
+            width: 280px
+            height: 158px
+
+@media only screen and (max-width: 330px)
+    .single
+        &-button
+            width: 270px
+            height: 152px
+
+@media only screen and (max-width: 320px)
+    .single
+        &-close
+            left: 85%

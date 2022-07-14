@@ -1,0 +1,247 @@
+.header
+
+    &-template2
+        max-height: 142px
+
+    &-errorPage
+        max-height: 996px
+
+    &-menu
+        margin: 0 auto
+        max-width: 783px
+        font-family: 'Poppins', sans-serif
+        font-size: 20px
+        color: #fff
+
+    &-sidebar
+        height: 100vh
+        z-index: 3
+        width: 0
+        right: 0
+        position: fixed
+        background: #000000
+        top: 0
+        overflow-x: hidden
+        padding-top: 36px
+
+    &-closeSidebar
+        cursor: pointer
+        color: #FFF
+
+    &-other
+        justify-content: space-between
+        align-items: center
+        display: flex
+
+    &-logo
+        flex: 0 0 168px
+
+    &-search
+        flex: 0 1 554px
+        display: flex
+        align-items: center
+
+    &-lupa
+        position: absolute
+        padding-left: 28px
+
+    &-input
+        text-indent: 65px
+        width: 98%
+        height: 53px
+        border-radius: 30px
+        border: none
+
+        &-second
+            text-indent: 65px
+            width: 100%
+            height: 53px
+            border-radius: 30px
+            border: 1px solid #868383
+
+    &-icons
+        flex: 0 0 189px
+        display: flex
+        justify-content: space-between
+
+    &-icon
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1)
+        position: relative
+        width: 36px
+        height: 36px
+        background: white
+        border-radius: 50px
+        justify-content: center
+
+        .icon
+            color: #696969
+            position: absolute
+            top: 50%
+            left: 50%
+            margin-right: -50%
+            transform: translate(-50%, -50%)
+
+        &:hover
+            background: #FFA902
+
+            .icon
+                color: #fff
+
+    &-row
+        padding-top: 25px
+        justify-content: space-between
+        font-family: 'Poppins', sans-serif
+        font-style: normal
+        font-weight: 300
+        font-size: 18px
+        display: flex
+        align-items: center
+
+
+    &-burger
+        max-height: 50px
+        max-width: 50px
+        display: none
+        cursor: pointer
+
+    &--hr
+        border: 1px solid #868383
+
+    &-references
+        display: flex
+        justify-content: space-between
+
+        a
+            &:hover
+                color: #FFA902
+
+    &-content
+        height: 100vh
+        display: flex
+        align-items: center
+
+    &-text
+        margin: 0 auto
+
+    &-title
+        text-align: center
+        max-width: 905px
+        font-size: 75px
+        font-weight: 700
+        font-family: 'Poppins', sans-serif
+        color: #fff
+
+    &-description
+        line-height: 196.3%
+        max-width: 865px
+        margin-top: 28px
+        text-align: center
+        font-family: 'Poppins', sans-serif
+        font-weight: 400
+        font-size: 15px
+        color: #fff
+
+    &-subtitle
+        max-width: 195px
+        padding-top: 28px
+        margin: 0 auto
+        text-align: center
+        font-family: 'Poppins', sans-serif
+        font-style: normal
+        font-weight: 700
+        font-size: 36px
+        color: #FFA902
+
+    &-absoluteSearch
+        position: fixed
+        display: block
+        opacity: 0
+
+.absolute
+    &-input
+        color: black
+        background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85))
+        opacity: 1
+        text-indent: 45vw
+        width: 100vw
+        border: none
+
+
+    &-search
+        left: 42vw
+        opacity: 0.7
+        color: black
+        position: absolute
+
+        &Close
+            left: 95vw
+            opacity: 0.7
+            color: black
+            position: absolute
+
+
+@media only screen and (max-width: 1399px)
+    .header
+        &-icons
+            display: none
+
+        &-burger
+            display: block
+
+        &-references
+            display: none
+        &-search
+            display: none
+
+@media only screen and (max-width: 991px)
+    .header
+        &-title
+            font-size: 50px
+            padding-top: 80px
+
+        &-description
+            font-size: 14px
+
+        &-subtitle
+            font-size: 30px
+
+@media only screen and (max-width: 767px)
+    .header
+        &-title
+            font-weight: 400
+            font-size: 45px
+            text-align: left
+
+        &-description
+            text-align: left
+
+        &-other
+            padding-top: 20px
+
+        &-row
+            display: flex
+
+        &-search
+            width: 400px
+
+@media only screen and (max-width: 480px)
+    .header
+        &-subtitle
+            display: none
+
+@media only screen and (max-height: 1000px)
+    .header
+        &-content
+            height: 800px
+
+@media only screen and (max-height: 900px)
+    .header
+        &-content
+            height: 700px
+
+@media only screen and (max-height: 800px)
+    .header
+        &-content
+            height: 600px
+
+

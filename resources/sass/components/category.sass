@@ -1,0 +1,112 @@
+.category
+    &-reference
+        margin-left: 9.33px
+        white-space: pre-line
+        color: #141414
+        &:hover
+            color: #FFA902
+        &-search
+            color: #FFFFFF
+            &:hover
+                color: #FFA902
+
+    &-author
+        white-space: pre-line
+        color: #141414
+
+    &-content
+        margin-top: 50px
+
+    &-card
+        margin-bottom: 24px
+        width: 100%
+        height: 370px
+
+        img
+            height: 100%
+            width: 100%
+            border-radius: 20px
+            position: relative
+
+    &-cardTitle
+        line-height: 27px
+        font-family: Poppins, sans-serif
+        font-style: normal
+        font-weight: 600
+        font-size: 18px
+        color: #fff
+
+    &-cardInfo
+        padding-left: 25px
+        position: relative
+        top: -102px
+        width: 100%
+        div
+            &:hover
+                color: #FFA902
+
+    &-cardData
+        padding-top: 10px
+        font-family: Poppins, sans-serif
+        font-style: normal
+        font-weight: 300
+        font-size: 10px
+        color: #FFFFFF
+        display: flex
+        align-items: baseline
+        div
+            &:hover
+                color: #FFA902
+
+    &-name
+        a
+            &:hover
+                color: #FFA902
+            font-family: Poppins, sans-serif
+            font-style: normal
+            font-weight: 500
+            font-size: 14px
+            color: #141414
+
+    &-posts
+        padding-left: 4px
+        font-family: Poppins, sans-serif
+        font-style: normal
+        font-weight: 500
+        font-size: 14px
+        color: #868383
+
+@media only screen and (max-width: 1399px)
+    .category
+        &-cardInfo
+            padding-left: 20px
+
+        &-cardTitle
+            font-size: 14px
+
+        &-cardData
+            font-size: 9px
+
+@media only screen and (max-width: 991px)
+    .category
+        &-cardTitle
+            font-size: 16px
+
+        &-cardData
+            font-size: 10px
+
+@media only screen and (max-width: 767px)
+    .category
+        &-cardTitle
+            font-size: 20px
+
+        &-cardData
+            font-size: 12px
+
+@media only screen and (max-width: 575px)
+    .category
+        &-cardTitle
+            font-size: 18px
+
+        &-cardData
+            font-size: 10px

@@ -1,0 +1,350 @@
+.random
+    &__post
+        margin-bottom: 24px
+        width: 100%
+        height: 370px
+
+        img
+            height: 100%
+            width: 100%
+            border-radius: 20px
+            position: relative
+
+    &__text
+        padding-left: 25px
+        position: relative
+        top: -102px
+        width: 100%
+
+    &__title
+        line-height: 27px
+        font-family: $font
+        font-style: $font-style
+        font-weight: 600
+        font-size: 18px
+        color: $white
+
+    &__data
+        padding-top: 10px
+        font-family: $font
+        font-style: $font-style
+        font-weight: 300
+        font-size: 10px
+        color: $white
+        display: flex
+        align-items: baseline
+    &__category-name, &__author
+        a
+            &:hover
+                color: $yellow
+
+.popular
+    margin-top: 25px
+    padding: 24px 17px 25px 22px
+    background: $white
+    box-shadow: $box-dark-gray-shadow
+    border-radius: 10px
+
+    &__title
+        margin-bottom: 20px
+        font-family: $font
+        font-style: $font-style
+        font-weight: bold
+        font-size: 18px
+        line-height: 183.3%
+        text-transform: capitalize
+        color: $black
+
+    &__post
+        display: flex
+        margin-bottom: 10px
+
+.text
+    &__title
+        font-family: $font
+        font-style: $font-style
+        font-weight: 600
+        font-size: 16px
+        color: $black
+
+    &__author
+        display: flex
+
+        a
+            color: $black
+
+            &:hover
+                color: $yellow
+
+    &__by-word
+        font-family: $font
+        font-style: $font-style
+        font-weight: 500
+        font-size: 6px
+        line-height: 183.3%
+        color: $light-gray
+        margin: 0 6px 0 6px
+
+    &__post-word
+        font-family: $font
+        font-style: $font-style
+        font-weight: 500
+        font-size: 6px
+        line-height: 183.3%
+        color: $yellow
+        text-decoration: underline
+
+    &__name
+        font-family: $font
+        font-style: $font-style
+        font-weight: 500
+        font-size: 6px
+        line-height: 183.3%
+
+    &__info
+        display: flex
+        align-items: center
+
+    &__date
+        font-family: Poppins, sans-serif
+        font-style: normal
+        font-weight: normal
+        font-size: 6px
+        line-height: 18px
+        color: $super-light-gray
+
+    &__comments
+        font-family: $font
+        font-style: $font-style
+        font-weight: normal
+        font-size: 6px
+        line-height: 18px
+        color: $yellow
+
+    &__hr
+        height: 1px
+        width: 11px
+        border: 0.5px solid $super-light-gray
+        margin: 0 9px 0 6px
+
+
+.categories
+    background: $white
+    box-shadow: $box-dark-gray-shadow
+    border-radius: 10px
+    padding: 25px 25px 21px 25px
+
+    &__title
+        font-family: $font
+        font-style: $font-style
+        font-weight: bold
+        font-size: 18px
+        line-height: 183.3%
+        text-transform: capitalize
+        color: $black
+
+.category
+    &-item
+        display: flex
+
+        &__name
+            font-family: $font
+            font-style: $font-style
+            font-weight: 500
+            font-size: 14px
+            line-height: 183.3%
+            text-transform: capitalize
+
+            a
+                color: $black
+
+        &__posts
+            margin-left: 7px
+            color: $light-gray
+            font-family: $font
+            font-style: $font-style
+            font-weight: 500
+            font-size: 14px
+            line-height: 183.3%
+            text-transform: capitalize
+
+    &__hr
+        margin: 5px 0 5px 0
+        width: 100%
+        border: 1px solid rgba(134, 131, 131, 0.2)
+
+
+.recent
+    position: relative
+    top: -60px
+    &__author-page
+        position: static
+        margin-top: 100px
+    &__title
+        font-family: $font
+        font-style: $font-style
+        font-weight: 600
+        font-size: 36px
+        color: $black
+        margin-bottom: 50px
+
+.post
+    &__text
+        margin-left: 13px
+
+    &__text-block
+        margin-bottom: 30px
+
+        a
+            color: $black
+
+            &:hover
+                color: $yellow
+
+    &__card
+        width: 86px
+        height: 60px
+        border-radius: 5px
+        overflow: hidden
+
+        img
+            position: relative
+            width: 100%
+            height: 100%
+            object-fit: cover
+
+    &__img
+        width: 100%
+        height: 225px
+        margin-bottom: 19px
+        border-radius: 10px
+        overflow: hidden
+
+        img
+            position: relative
+            width: 100%
+            height: 100%
+            object-fit: cover
+
+.text-block
+    &__title
+        font-family: $font
+        font-style: $font-style
+        font-weight: 600
+        font-size: 20px
+        line-height: 30px
+        text-transform: capitalize
+        color: $black
+
+    &__date
+        font-family: Poppins, sans-serif
+        font-style: normal
+        font-weight: normal
+        font-size: 12px
+        line-height: 18px
+        color: $super-light-gray
+
+    &__author
+        display: flex
+        align-items: end
+
+    &__comments
+        font-family: $font
+        font-style: $font-style
+        font-weight: normal
+        font-size: 12px
+        line-height: 18px
+        color: $yellow
+
+    &__hr
+        height: 1px
+        width: 31px
+        border: 1px solid $super-light-gray
+        margin: 0 9px 0 6px
+
+    &__by-word
+        font-family: $font
+        font-style: $font-style
+        font-weight: 500
+        font-size: 12px
+        line-height: 183.3%
+        color: $light-gray
+        margin: 0 6px 0 6px
+
+    &__post-word
+        font-family: $font
+        font-style: $font-style
+        font-weight: 500
+        font-size: 12px
+        line-height: 183.3%
+        color: $yellow
+        text-decoration: underline
+
+    &__info
+        display: flex
+        align-items: center
+
+    &__name
+        font-family: $font
+        font-style: $font-style
+        font-weight: 500
+        font-size: 12px
+        line-height: 183.3%
+
+@media only screen and (max-width: 1399px)
+    .text
+        &__title
+            font-size: 11px
+
+@media only screen and (max-width: 1199px)
+    .popular
+        &__post
+            display: block
+    .post
+        &__text
+            margin: unset
+            text-align: center
+
+            div
+                justify-content: center
+
+        &__card
+            width: 100%
+            height: 126px
+    .text
+        &__title
+            font-size: 16px
+
+        &__post-word, &__by-word, &__date, &__comments, &__name
+            font-size: 10px
+
+    .recent
+        &__title
+            font-size: 16px
+
+@media only screen and (max-width: 991px)
+    .post__text-block
+        text-align: center
+
+        div
+            justify-content: center
+
+@media only screen and (max-width: 767px)
+    .random
+        &__title
+            font-size: 24px
+
+        &__data
+            font-size: 14px
+@media only screen and (max-width: 575px)
+    .random
+        &__title
+            font-size: 20px
+        &__data
+            font-size: 10px
+@media only screen and (max-width: 400px)
+    .random
+        &__title
+            font-size: 18px
+        &__data
+            font-size: 9px
